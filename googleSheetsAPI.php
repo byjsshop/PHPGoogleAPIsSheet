@@ -16,7 +16,7 @@
 	$userId = $deCode['events'][0]['source']['userId'];
 	$type = $deCode['events'][0]['type'];
 
-	$token = "LINE-ACCESS-TOKEN";
+	$token = "ymhB4QVsIa8XmAnFKDedE8kF22F8UMZ3JeNP2SEGuoTCJMXSeHE8Mbim/NyMBMUDp5+XCXbOR8FzJKLUPWM6SiJBmbnn/QPB5VJaGBUe4troXyGj9AY5zef661GoEDqGqVGCyC2d9mR3sobhgzNn5wdB04t89/1O/w1cDnyilFU=";
 
 	$LINEProfileDatas['url'] = "https://api.line.me/v2/bot/profile/".$userId;
   	$LINEProfileDatas['token'] = $token;
@@ -32,7 +32,7 @@
 	$client = new \Google_Client();
     $client->setApplicationName('Google Sheets API PHP Quickstart');
     $client->setScopes(\Google_Service_Sheets::SPREADSHEETS);
-    $client->setAuthConfig(__DIR__.'/amiable-octane-272311-e2e44b0f4852.json');
+    $client->setAuthConfig(__DIR__.'/erudite-skill-313815-7cfe64bc8e70.json');
     $client->setAccessType('offline');
     // $client->setPrompt('select_account consent');
 
